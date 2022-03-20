@@ -20,5 +20,8 @@
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        <!-- feature/breeze Vue.jsを使用できるように修正 START 2022/03/20 -->
+        <script src="{{ mix('js/app.js') }}"></script>
+        <!-- feature/breeze Vue.jsを使用できるように修正 E N D 2022/03/20 -->
     </body>
 </html>
